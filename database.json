@@ -1,0 +1,70 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "Tim@Tim.com",
+            "password": "Tim",
+            "name": "Tim"
+        },    
+        {
+            "id": 2,
+            "email": "Eva@Eva.com",
+            "password": "Eva",
+            "name": "Eva"
+        }
+    ],
+    "storeLocations": [
+        {
+            "id": 1,
+            "name": "Goodwill",
+            "address": "1001 Gallatin Pike",
+            "storeHours": "10am-7pm",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "name": "Southern Thrift",
+            "address": "4502 Thompson Lane",
+            "storeHours": "10am-7pm",
+            "userId": 2
+        }
+        ],
+    "inventoryItems": [
+        {
+            "id": 1,
+            "itemTypeId": 1,
+            "description": "Vintage Cream T-shirt with a Budweiser Logo",
+            "storeLocationId": 2,
+            "purchasePrice": "1.99",
+            "forSale": "true",
+            "salePrice": "35.00",
+            "time": ""
+        }
+    ],
+    "itemType": [
+        {
+            "id": 1,
+            "type": "T-Shirt"
+        },
+        {
+            "id": 2,
+            "type": "Pants"
+        },
+        {
+            "id": 3,
+            "type": "Coat"
+        },
+        {
+            "id": 4,
+            "type": "Furniture"
+        },
+        {
+            "id": 5,
+            "type": "Knick-Knack"
+        },
+        {
+            "id": 6,
+            "type": "Shoes"
+        }
+    ]
+}
